@@ -1,0 +1,9 @@
+nohup: ignoring input
+/home/zzy/anaconda3/envs/AP3D/lib/python3.7/site-packages/torchvision/transforms/transforms.py:330: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+Traceback (most recent call last):
+  File "evolution.py", line 641, in <module>
+    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+  File "evolution.py", line 625, in main
+    print(self.af_ranking['autoformer'])
+NameError: name 'self' is not defined

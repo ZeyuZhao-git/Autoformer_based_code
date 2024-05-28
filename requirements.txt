@@ -1,0 +1,8 @@
+torch==1.13
+timm==0.3.2
+scikit-image
+ptflops
+easydict
+PyYAML
+pillow
+opencv-python

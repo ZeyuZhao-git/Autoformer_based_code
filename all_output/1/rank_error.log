@@ -1,0 +1,5 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "cal_kendall_coefficient.py", line 20, in <module>
+    for k,v in tf_rankings:
+ValueError: too many values to unpack (expected 2)

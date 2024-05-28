@@ -1,0 +1,1 @@
+nohup python3 -m torch.distributed.launch --nproc_per_node=4 --use_env evolution.py > /home/zzy/TF_TAS/all_output/get_ken_output_M/SEED_0/cal_af/output.log 2> /home/zzy/TF_TAS/all_output/get_ken_output_M/SEED_0/cal_af/error.log &
